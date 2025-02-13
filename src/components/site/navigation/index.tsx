@@ -12,7 +12,7 @@ type Props = {
 
 const Navigation = ({ user }: Props) => {
   return (
-    <div className='p-4 flex items-center justify-between relative bg-background/80 backdrop-blur-sm z-[100]'>
+    <div className='p-4 flex items-center justify-between fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-sm z-[100]'>
       <aside className='flex items-center gap-2'>
         <Image
           src="/assets/plura-logo.svg"
@@ -21,7 +21,7 @@ const Navigation = ({ user }: Props) => {
           alt="logo"
         />
         <span className='text-xl font-bold'>
-          Plura.
+          Webra.
         </span>
       </aside>
 

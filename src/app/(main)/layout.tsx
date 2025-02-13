@@ -8,7 +8,7 @@ const AuthLayout = ({children}:{children:React.ReactNode}) => {
         baseTheme: dark,
       }}
     >
-        <div className='flex h-full items-center justify-center'>{children}</div>
+        {children}
     </ClerkProvider>
   )
 }
